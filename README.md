@@ -35,7 +35,6 @@
     <br />
     <br />
     <a href="https://agustinv16.github.io/Amigo-Secreto-Project/">View Demo</a>
-    &middot;
   </p>
 </div>
 
@@ -55,11 +54,11 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
+        <li><a href="#prerequisites"></a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#functionalities"></a></li>
       </ul>
     </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -69,7 +68,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Imagen](Captura.PNG)
+![Imagen](assets/README/Captura.PNG)
 
 This project was made to complete the path "Practicando Lógica de programación: Challenge Amigo Secreto" of the course "Principiante en Programación G8 - ONE" from Alura LATAM.
 
@@ -79,9 +78,9 @@ This project was made to complete the path "Practicando Lógica de programación
 
 ### Built With
 
-* [JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-* [CSS](https://img.shields.io/badge/CSS-563d7c?&style=flat&logo=css3&logoColor=white)
-* [HTML](https://img.shields.io/badge/HTML-e34c26?style=flat&logo=html5&logoColor=white)
+* JavaScript [![JavaScript](https://skillicons.dev/icons?i=js)](https://skillicons.dev)
+* CSS 3 [![CSS](https://skillicons.dev/icons?i=css)](https://skillicons.dev)
+* HTML 5 [![HTML](https://skillicons.dev/icons?i=html)](https://skillicons.dev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,6 +90,34 @@ This project was made to complete the path "Practicando Lógica de programación
 ## Getting Started
 
 To run this project you only need to clone it locally
+
+### Prerequisites 
+
+If you are using VSCode to run this project locally you may want to have Live Server
+
+* Live Server Extension
+
+  1. Open Extensions Panel
+    * Open Visual Studio Code.
+    * In the Activity Bar on the left side, click on the Extensions icon   
+      (it looks like a square with four squares inside, located on the bottom of the sidebar).
+    * Alternatively, you can use the shortcut Ctrl+Shift+X (Windows/Linux)or Cmd+Shift+X (Mac).
+  
+    ![Step 1](https://media.geeksforgeeks.org/wp-content/uploads/20221201182629/Enableliveserver1.jpg)
+
+  2. Search for Live Server
+    * In the Extensions search box, type “Live Server”.
+    * Look for the extension titled “Live Server” by Ritwick Dey (this is  the most popular and widely used extension).
+    * Click on Install to install the Live Server extension.
+
+    ![Step 2](https://media.geeksforgeeks.org/wp-content/uploads/20221201183122/Enablingliveserver2.jpg)
+
+  3. Launch Live Server
+    * Open the HTML file you want to preview in the browser.
+    * At the bottom-right corner of the VS Code window, you will see a Go Live button. Click on it to start the Live Server.
+    * Alternatively, you can right-click on your HTML file and select “Open with Live Server” from the context menu.
+
+    ![Step 3](https://media.geeksforgeeks.org/wp-content/uploads/20221201183647/Enableliveserver4.jpg)
 
 ### Installation
 
@@ -103,6 +130,16 @@ To run this project you only need to clone it locally
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
    ```
+
+### Functionalities 
+
+- `Functionality 1`: A button that adds friends to a list and then clears the input field
+
+  ![Button](assets/README/Captura2.PNG)
+  ![List](assets/README/Captura3.PNG)
+
+- `Functionality 2`: A button that chooses a random friend of the list to be the "Amigo Secreto"
+  ![Random](assets/README/Captura4.PNG)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
